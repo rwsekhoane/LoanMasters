@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Roboto:ital,wght@0,700;1,400&family=Stick+No+Bills:wght@200;800&display=swap');
+
+
+*{margin: 0px;
+padding: 0px;
+font-family: montserrat;}
+
+/*Navigation bar*/
+.logo{
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: -1;
+}
+.Navbar{
+  max-width: 100%;
+  margin-left: 10px;
+  margin-top: -140px;
+  padding: 0px 0px;
+  display:inline-flex;
+  align-items:center ;
+}
+.Navbar ul li {
+   list-style: none;
+    display: inline-block;
+    margin-left: -25px;
+    margin-right: 50px;
+    margin-top: 95px;
+    left:250px;
+    position: relative;
+    text-transform:uppercase;
+}
+.Navbar ul li a{
+  text-decoration: none;
+  color:rgb(2, 87, 2);
+  font-weight: 1000;
+  font-size: 20px;
+}
+.Navbar ul li a:hover,
+.Navbar ul li a:active{
+  border-bottom: 5px solid orangered;
+}
+.applynow{
+  font: 500;
+  padding:5px;
+  border-radius: 5px;
+  border: solid 2px rgb(2, 87, 2);
+}
+
+/*section-1*/
+
+.First_section img{
+  width: 800px;
+  height: 440px;
+  margin-left: 490px;
+  margin-top: -140px;
+  display: inline-block; 
+  border-radius: 10px;
+}
+
+.Box_1{
+  margin-top: -450px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding:30px;
+  max-width: 350px;
+  height: 386px;
+  text-align: left;
+  background-color: rgb(2, 87, 2);
+  border-radius: 10px;
+  z-index: 1;
+}
+.Box_1 h2{
+  margin-top: -10px;
+  margin-bottom: 40px;
+  font-weight: 1000px;
+  font-size: 35px;
+  color: white;
+  
+}
+.Box_1 p{
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: 20px;
+  color:white;
+}
+.Box_1 button{
+  
+  text-transform: uppercase;
+  margin-top:60px;
+  margin-left: 20px;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  background-color: orangered;
+  padding: 10px;
+  border-radius: 10px;
+  border:solid 1px orangered;
+}
+.Box_1 button a{
+  text-decoration: none;
+  color:white;
+}
+
+/*section-2*/
+
+.Second_section {
+  width: 100%;
+  height: 440px;
+  margin-left: 60px;
+  margin-top: -70px;
+  display: inline-flex;
+  align-items: center;
+}
+.IMT{
+  align-items: center;
+  width:300px;
+}
+.IMT h3{
+  margin-bottom: 20px;
+}
+
+.AR{
+  align-items: center;
+  width:300px;
+  margin-left: 180px;
+}
+.AR h3{
+  margin-bottom: 20px;
+}
+
+.FAP{
+  align-items: center;
+  margin-left: 180px;
+  width:300px;
+}
+.FAP h3{
+  margin-bottom: 20px;
+}
+
+/*section-3*/
+
+.Third_section .criteria {
+  align-items: center;
+  margin-top: -30px;
+  margin-left: 60px;
+  background-color: rgb(188, 190, 188);
+  margin-bottom: 40px;
+  color:black;
+  padding:10px;
+  width:90%;
+  border-radius: 10px;
+}
+.criteria h3{
+  margin-bottom: 20px;
+}
+.criteria ul li{
+  list-style: none;
+  margin-bottom: 2px;
+  text-indent: 20px;
+}
+
+/*section-4*/
+
+.Fourth_section  {
+  align-items: center;
+  margin-left: 60px;
+  background-color: white;
+  margin-bottom: 40px;
+  color:black;
+  padding:10px;
+  width:90%;
+}
+.Fourth_section .criteria_1 h2{
+ margin-left: 400px;
+ margin-bottom: 10px;
+ color: rgb(2, 87, 2);
+}
+.Fourth_section .criteria_1 h5{
+  margin-left: -50px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: rgb(2, 87, 2);
+ }
+ .Fourth_section .criteria_2 ul li{
+  list-style: none;
+  margin-bottom: 2px;
+ }
+ .Fourth_section .criteria_2 p{
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500px;
+  margin-bottom: 30px;
+  width: 90%;
+ }
+ .criteria_2 button{
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 0px;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  background-color: orangered;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 1px orangered;
+}
+.criteria_2 button a{
+  text-decoration: none;
+  color:white;
+}
+.closure {
+  margin-left:50px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width:90%;
+  background-color: rgb(2, 87, 2);
+  padding:20px;
+  color:white;
+  align-items: center;
+  text-align: center;
+}
+.closure p {
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+.TC {
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: orangered;
+  color: white;
+  width:90%;
+  text-align: center;
+  font-weight: 500px;
+  padding:20px;
+}

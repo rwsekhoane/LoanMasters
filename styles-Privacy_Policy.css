@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Roboto:ital,wght@0,700;1,400&family=Stick+No+Bills:wght@200;800&display=swap');
+
+
+*{margin: 10px;
+padding: 0px;
+font-family: montserrat;}
+
+/*Navigation bar*/
+.logo {
+  margin-top: 0px;
+  margin-left:-30px;
+  z-index: -1;
+  
+}
+.Navbar{
+
+  margin-left: 0px;
+  margin-top: -140px;
+  padding: 0px 0px;
+  display:inline-flex;
+  align-items:center ;
+}
+.Navbar ul li {
+   list-style: none;
+    display: inline-block;
+    margin-left: -50px;
+    margin-right: 50px;
+    margin-top: 95px;
+    left:250px;
+    position: relative;
+    text-transform:uppercase;
+}
+.Navbar ul li a{
+  text-decoration: none;
+  color:rgb(2, 87, 2);
+  font-weight: 1000;
+  font-size: 20px;
+}
+.Navbar ul li a:hover,
+.Navbar ul li a:active{
+  border-bottom: 5px solid orangered;
+}
+.applynow{
+  font: 500;
+  padding:5px;
+  border-radius: 5px;
+  border: solid 2px rgb(2, 87, 2);
+}
+/*Main Section*/
+
+.terms {
+  z-index: 1;
+  margin-top: -200px;
+  width:90%;
+}
+.terms h2 {
+  margin-bottom: 15px;
+}
+.terms h4{
+  margin-bottom: 15px;
+}
+.terms h5{
+  margin-bottom: 15px;
+}
+.terms p{
+  margin-bottom: 20px;
+}
+.terms a {
+  text-decoration: none;
+  color:rgb(2, 87, 2);
+  font-weight: 1000;
+  font-size: 20px; 
+}
+.closure {
+  margin-left:0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width:96%;
+  background-color: rgb(2, 87, 2);
+  padding:20px;
+  color:white;
+  align-items: center;
+  text-align: center;
+}
+.closure p {
+  margin-bottom: 1px;
+  font-size: 15px;
+  margin: 2px;
+}
+.TC {
+  margin-top: 0px;
+  margin-left: -0px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: orangered;
+  color: white;
+  width:96%;
+  text-align: center;
+  font-weight: 500px;
+  padding:20px;
+}
